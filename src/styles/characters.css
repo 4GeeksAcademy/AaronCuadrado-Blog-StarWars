@@ -1,0 +1,45 @@
+.card{
+    color: white;
+    font-size: 15px;
+}
+
+
+
+.card-body {
+    color: white; /* Ejemplo: color de texto blanco */
+}
+
+.card-text.no-margin {
+    margin-bottom: 4px; /* Elimina el margen inferior de los <p> dentro de .card-body */
+    font-size: 10px;  
+    color: white; /* Ejemplo: color de texto blanco */
+  
+}
+
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    gap: 1rem;
+}
+
+.card-custom {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card-custom:hover {
+    transform: translateY(-5px);
+}
+
+
+.card-custom .btn:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.custom-img-size {
+    width: 100%; /* Ajusta el ancho según lo necesites */
+    height: auto; /* Mantiene la proporción original de la imagen */
+}

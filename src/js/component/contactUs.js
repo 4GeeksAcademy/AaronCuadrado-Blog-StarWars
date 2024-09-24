@@ -5,12 +5,12 @@ import "../../styles/index.css";
 const ContactUs = () => {
     return (
         <div className="contact container">
-            {/* texto principal */}
             <div className="row">
+                {/* Primera sección: Información relevante de Star Wars */}
                 <div className="col-md-6">
                     <div className="mb-3">
                         <div className="">
-                            <h2 className="card-title text-warning">Historia</h2>
+                            <h2 className="card-title text-warning">History</h2>
                             <p className="text-white">
                                 En una galaxia muy, muy lejana, se libraba una guerra entre la opresiva y tecnológicamente avanzada República Galáctica y los separatistas liderados por el Conde Dooku. En medio de este conflicto, un joven llamado Anakin Skywalker, dotado de habilidades extraordinarias en la Fuerza, es descubierto por el Maestro Jedi Qui-Gon Jinn. Convencido de su potencial, Qui-Gon lo lleva ante el Consejo Jedi en Coruscant, donde es entrenado por Obi-Wan Kenobi.
                             </p>
@@ -22,31 +22,31 @@ const ContactUs = () => {
                             </p>
 
                             <p className="card-title text-warning">
-                                ¡Que la fuerza te acompañe!
+                                ¡MADE THE FORCE BE WITH YOU!
                             </p>
                         </div>
                     </div>
                 </div>
 
-                {/* formulario de contacto */}
+                {/* Segunda sección: Formulario de contacto */}
                 <div className="col-md-6">
                     <div className="mb-3">
                         <div className="">
-                            <h2 className="card-title text-warning">Contacto</h2>
+                            <h2 className="card-title text-warning">Contact Us</h2>
                             <form>
                                 <div className="mb-3">
-                                    <label htmlFor="fullName" className="form-label text-white">Nombre Completo</label>
+                                    <label htmlFor="fullName" className="form-label text-white">Full Name</label>
                                     <input type="text" className="form-control" id="fullName" name="fullName" placeholder="Insert your name..." />
                                 </div>
                                 <div className="mb-3">
-                                    <label htmlFor="email" className="form-label text-white">Email</label>
+                                    <label htmlFor="email" className="form-label text-white">Email address</label>
                                     <input type="email" className="form-control" id="email" name="email" placeholder="Insert your email..." />
                                 </div>
                                 <div className="mb-3">
-                                    <label htmlFor="message" className="form-label text-white">Mensaje</label>
+                                    <label htmlFor="message" className="form-label text-white">Message</label>
                                     <textarea className="form-control" id="message" name="message" rows="5" placeholder="Insert your message..."></textarea>
                                 </div>
-                                <button type="submit" className="btn btn-warning">Enviar</button>
+                                <button type="submit" className="btn btn-warning">Submit</button>
                             </form>
                         </div>
                     </div>

@@ -1,0 +1,58 @@
+.card{
+    color: white;
+    font-size: 15px;
+}
+
+.card-body {
+    color: white; /* Ejemplo: color de texto blanco */
+}
+
+
+
+.card-text.no-margin {
+    margin-bottom: 4px; /* Elimina el margen inferior de los <p> dentro de .card-body */
+    font-size: 10px;  
+    color: white; /* Ejemplo: color de texto blanco */
+  
+}
+
+.card-custom {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card-custom:hover {
+    transform: translateY(-5px);
+}
+
+
+.card-custom .btn:hover {
+    background-color: rgba(204, 27, 27, 0.408);
+}
+
+
+________________________
+
+
+.custom-img-size {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Ajusta la imagen sin distorsión */
+}
+.card-custom {
+    display: flex;
+    flex-direction: column;
+}
+.color-white {
+    color: white;
+}
+.no-margin {
+    margin: 0;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

@@ -20,11 +20,11 @@ export const Carrosel = () => {
             </div>
             <button className="carousel-control-prev custom-carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
                 <span className="carousel-control-prev-icon custom-carousel-control-prev-icon" aria-hidden="true"></span>
-                <span className="visually-hidden">Anterior</span>
+                <span className="visually-hidden">Previous</span>
             </button>
             <button className="carousel-control-next custom-carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
                 <span className="carousel-control-next-icon custom-carousel-control-next-icon" aria-hidden="true"></span>
-                <span className="visually-hidden">Siguiente</span>
+                <span className="visually-hidden">Next</span>
             </button>
         </div>
 

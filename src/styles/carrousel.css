@@ -1,0 +1,33 @@
+.custom-carousel-control-prev,
+.custom-carousel-control-next {
+    width: 80px;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.5); /* Fondo blanco transparente */
+    border-radius: 50%; /* Hacer los botones circulares */
+    display: flex;
+    margin: 50px;
+    align-items: center;
+    justify-content: center;
+    position: absolute; /* Posicionamiento absoluto */
+    top: 50%; /* Centrado vertical */
+    transform: translateY(-50%); /* Ajuste de centrado vertical */
+    z-index: 1; /* Asegura que los botones estén encima de las imágenes */
+}
+
+.custom-carousel-control-prev-icon,
+.custom-carousel-control-next-icon {
+    filter: invert(1); /* Cambiar el color del ícono a blanco */
+}
+
+.custom-carousel-control-prev:hover,
+.custom-carousel-control-next:hover {
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo más opaco al pasar el ratón */
+}
+
+.custom-carousel-control-prev {
+    left: 10px; /* Ajuste horizontal del botón previo */
+}
+
+.custom-carousel-control-next {
+    right: 10px; /* Ajuste horizontal del botón siguiente */
+}
