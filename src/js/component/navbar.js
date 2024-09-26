@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
-import logo from "../../img/sw.png";
+// import logo from "../../img/sw.png";
 import "../../styles/index.css";
 import { Context } from "../store/appContext";
 
@@ -26,11 +26,12 @@ export const Navbar = () => {
                 </div>
 
                 <Link to="/">
-                    <img src={logo} className="rounded mx-auto d-block" alt="Star Wars logo" width={180} height={80} />
+                    {/*<img src={logo} className="rounded mx-auto d-block" alt="Star Wars logo" width={180} height={80} /> */}
                 </Link>
 
                 <div className="ml-auto">
                     <div className="btn-group">
+                        {/*
                         <button
                             type="button"
                             className="btn btn-secondary dropdown-toggle"
@@ -51,6 +52,7 @@ export const Navbar = () => {
                                 </li>
                             ))}
                         </ul>
+                        */}
                     </div>
                 </div>
             </nav >
