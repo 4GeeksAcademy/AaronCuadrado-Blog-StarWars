@@ -84,7 +84,7 @@ export const Characters = () => {
                                         className="btn btn-warning"
                                         onClick={() => fetchCharacterDetails(character.url, index + 1)}
                                     >
-                                        Detail
+                                        Detalles
                                     </button>
                                     <button
                                         type="button"

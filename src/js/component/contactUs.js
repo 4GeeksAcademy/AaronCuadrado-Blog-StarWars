@@ -28,29 +28,6 @@ const ContactUs = () => {
                     </div>
                 </div>
 
-                {/* Segunda sección: Formulario de contacto */}
-                <div className="col-md-6">
-                    <div className="mb-3">
-                        <div className="">
-                            <h2 className="card-title text-warning">Contact Us</h2>
-                            <form>
-                                <div className="mb-3">
-                                    <label htmlFor="fullName" className="form-label text-white">Full Name</label>
-                                    <input type="text" className="form-control" id="fullName" name="fullName" placeholder="Insert your name..." />
-                                </div>
-                                <div className="mb-3">
-                                    <label htmlFor="email" className="form-label text-white">Email address</label>
-                                    <input type="email" className="form-control" id="email" name="email" placeholder="Insert your email..." />
-                                </div>
-                                <div className="mb-3">
-                                    <label htmlFor="message" className="form-label text-white">Message</label>
-                                    <textarea className="form-control" id="message" name="message" rows="5" placeholder="Insert your message..."></textarea>
-                                </div>
-                                <button type="submit" className="btn btn-warning">Submit</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     );
