@@ -7,22 +7,22 @@ const ContactUs = () => {
         <div className="contact container">
             <div className="row">
                 {/* Primera sección: Información relevante de Star Wars */}
-                <div className="col-md-6">
-                    <div className="mb-3">
+                <div className="">
+                    <div className="">
                         <div className="">
-                            <h2 className="card-title text-warning">History</h2>
+                            <h2 className="card-title text-warning">Historia</h2>
                             <p className="text-white">
-                                En una galaxia muy, muy lejana, se libraba una guerra entre la opresiva y tecnológicamente avanzada República Galáctica y los separatistas liderados por el Conde Dooku. En medio de este conflicto, un joven llamado Anakin Skywalker, dotado de habilidades extraordinarias en la Fuerza, es descubierto por el Maestro Jedi Qui-Gon Jinn. Convencido de su potencial, Qui-Gon lo lleva ante el Consejo Jedi en Coruscant, donde es entrenado por Obi-Wan Kenobi.
+                            Star Wars comienza con la lucha entre la República y los Sith, una orden oscura de usuarios de la Fuerza. Anakin Skywalker es entrenado como Jedi, pero su miedo lo lleva al lado oscuro, convirtiéndose en Darth Vader y ayudando a los Sith a dominar la galaxia.
                             </p>
                             <p className="text-white">
-                                Anakin, a pesar de su talento, lucha constantemente con sus propias emociones y deseos, especialmente su amor secreto por Padmé Amidala, la senadora de Naboo. Eventualmente, Anakin se convierte en el legendario Caballero Jedi, pero su destino se ve ensombrecido por la profecía de que él traerá equilibrio a la Fuerza, pero también podría caer en la oscuridad.
+                            La Alianza Rebelde lucha contra el Imperio Galáctico, liderado por Vader y el Emperador Palpatine. Luke Skywalker, hijo de Anakin, se convierte en Jedi y destruye la Estrella de la Muerte. Con la ayuda de Leia y Han Solo, los rebeldes siguen combatiendo.
                             </p>
                             <p className="text-white">
-                                La historia de Star Wars abarca generaciones, con épicas batallas espaciales, intrigas políticas, y una constante lucha entre el bien y el mal. Personajes icónicos como Darth Vader, Luke Skywalker, Leia Organa y muchos más, han dejado una huella indeleble en la cultura popular galáctica.
+                            Luke enfrenta a su padre en una batalla decisiva, logrando que Anakin regrese al lado luminoso y destruya al Emperador. La galaxia celebra la caída del Imperio, pero nuevos conflictos y amenazas como el Primero Orden surgen en los años posteriores.
                             </p>
 
                             <p className="card-title text-warning">
-                                ¡MADE THE FORCE BE WITH YOU!
+                                ¡MADE THE FORCE BE WITH YOU! ( No he visto StarWars ( Aaron ))
                             </p>
                         </div>
                     </div>

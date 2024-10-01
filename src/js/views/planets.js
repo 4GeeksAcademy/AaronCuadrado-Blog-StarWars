@@ -57,18 +57,18 @@ export const Planets = () => {
                             <div className="col-md-8">
                                 <div className="card-body">
                                     <h5 className="card-title text-warning">{selectedPlanet.name}</h5>
-                                    <p className="card-text no-margin fs-6"><i className="bi bi-caret-right"></i> Diameter: {selectedPlanet.diameter}</p>
-                                    <p className="card-text no-margin fs-6"><i className="bi bi-caret-right"></i> Climate: {selectedPlanet.climate}</p>
-                                    <p className="card-text no-margin fs-6"><i className="bi bi-caret-right"></i> Gravity: {selectedPlanet.gravity}</p>
-                                    <p className="card-text no-margin fs-6"><i className="bi bi-caret-right"></i> Terrain: {selectedPlanet.terrain}</p>
-                                    <p className="card-text no-margin fs-6"><i className="bi bi-caret-right"></i> Surface Water: {selectedPlanet.surface_water}</p>
-                                    <p className="card-text no-margin fs-6"><i className="bi bi-caret-right"></i> Population: {selectedPlanet.population}</p>
+                                    <p className="card-text no-margin fs-6"><i className="bi bi-caret-right"></i> Diametro: {selectedPlanet.diameter}</p>
+                                    <p className="card-text no-margin fs-6"><i className="bi bi-caret-right"></i> Clima: {selectedPlanet.climate}</p>
+                                    <p className="card-text no-margin fs-6"><i className="bi bi-caret-right"></i> Gravedad: {selectedPlanet.gravity}</p>
+                                    <p className="card-text no-margin fs-6"><i className="bi bi-caret-right"></i> Terreno: {selectedPlanet.terrain}</p>
+                                    <p className="card-text no-margin fs-6"><i className="bi bi-caret-right"></i> Superficie de agua: {selectedPlanet.surface_water}</p>
+                                    <p className="card-text no-margin fs-6"><i className="bi bi-caret-right"></i> Habitantes: {selectedPlanet.population}</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <button className="btn btn-warning mb-3" onClick={() => setSelectedPlanet(null)}>
-                        Back to Planets
+                        Volver a planetas
                     </button>
                 </>
             ) : (
@@ -88,7 +88,7 @@ export const Planets = () => {
                                         className="btn btn-warning"
                                         onClick={() => fetchPlanetDetails(planet.uid)}
                                     >
-                                        Detail
+                                        Detalles
                                     </button>
                                     <button
                                         type="button"

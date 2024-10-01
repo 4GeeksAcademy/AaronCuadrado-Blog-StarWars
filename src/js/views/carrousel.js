@@ -1,7 +1,7 @@
 import React from "react";
-import image from "../../img/image.png"
-import image2 from "../../img/image2.png"
-import image3 from "../../img/image3.png"
+import image from "../../img/image copy.png"
+import image2 from "../../img/image copy 3.png"
+import image3 from "../../img/image copy 2.png"
 import "../../styles/carrousel.css";
 
 export const Carrosel = () => {
@@ -20,11 +20,11 @@ export const Carrosel = () => {
             </div>
             <button className="carousel-control-prev custom-carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
                 <span className="carousel-control-prev-icon custom-carousel-control-prev-icon" aria-hidden="true"></span>
-                <span className="visually-hidden">Previous</span>
+                <span className="visually-hidden">Anterior</span>
             </button>
             <button className="carousel-control-next custom-carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
                 <span className="carousel-control-next-icon custom-carousel-control-next-icon" aria-hidden="true"></span>
-                <span className="visually-hidden">Next</span>
+                <span className="visually-hidden">Siguiente</span>
             </button>
         </div>
 

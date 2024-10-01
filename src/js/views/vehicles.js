@@ -53,21 +53,21 @@ export const Vehicles = () => {
                             <div className="col-md-7">
                                 <div className="card-body">
                                     <h5 className="card-title text-warning">{selectedVehicle.name}</h5>
-                                    <p className="card-text no-margin fs-6"><i className="bi bi-caret-right"></i> Model: {selectedVehicle.model}</p>
-                                    <p className="card-text no-margin fs-6"><i className="bi bi-caret-right"></i> Manufacturer: {selectedVehicle.manufacturer}</p>
-                                    <p className="card-text no-margin fs-6"><i className="bi bi-caret-right"></i> Cost in Credits: {selectedVehicle.cost_in_credits}</p>
-                                    <p className="card-text no-margin fs-6"><i className="bi bi-caret-right"></i> Length: {selectedVehicle.length}</p>
-                                    <p className="card-text no-margin fs-6"><i className="bi bi-caret-right"></i> Max Atmosphering Speed: {selectedVehicle.max_atmosphering_speed}</p>
-                                    <p className="card-text no-margin fs-6"><i className="bi bi-caret-right"></i> Crew: {selectedVehicle.crew}</p>
-                                    <p className="card-text no-margin fs-6"><i className="bi bi-caret-right"></i> Passengers: {selectedVehicle.passengers}</p>
-                                    <p className="card-text no-margin fs-6"><i className="bi bi-caret-right"></i> Cargo Capacity: {selectedVehicle.cargo_capacity}</p>
-                                    <p className="card-text no-margin fs-6"><i className="bi bi-caret-right"></i> Consumables: {selectedVehicle.consumables}</p>
+                                    <p className="card-text no-margin fs-6"><i className="bi bi-caret-right"></i> Modelo: {selectedVehicle.model}</p>
+                                    <p className="card-text no-margin fs-6"><i className="bi bi-caret-right"></i> Fabricante: {selectedVehicle.manufacturer}</p>
+                                    <p className="card-text no-margin fs-6"><i className="bi bi-caret-right"></i> Precio en creditos: {selectedVehicle.cost_in_credits}</p>
+                                    <p className="card-text no-margin fs-6"><i className="bi bi-caret-right"></i> Longitud: {selectedVehicle.length}</p>
+                                    <p className="card-text no-margin fs-6"><i className="bi bi-caret-right"></i> Max velocidad en atmosfera: {selectedVehicle.max_atmosphering_speed}</p>
+                                    <p className="card-text no-margin fs-6"><i className="bi bi-caret-right"></i> Tripulacion: {selectedVehicle.crew}</p>
+                                    <p className="card-text no-margin fs-6"><i className="bi bi-caret-right"></i> Pasajeros: {selectedVehicle.passengers}</p>
+                                    <p className="card-text no-margin fs-6"><i className="bi bi-caret-right"></i> Capacidad de carga: {selectedVehicle.cargo_capacity}</p>
+                                    <p className="card-text no-margin fs-6"><i className="bi bi-caret-right"></i> Consumibles: {selectedVehicle.consumables}</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <button className="btn btn-warning mb-3" onClick={() => setSelectedVehicle(null)}>
-                        Back to Vehicles
+                        Volver a vehiculos
                     </button>
                 </>
             ) : (
@@ -86,7 +86,7 @@ export const Vehicles = () => {
                                         className="btn btn-warning"
                                         onClick={() => fetchVehicleDetails(vehicle.uid)}
                                     >
-                                        Detail
+                                        Detalles
                                     </button>
                                     <button
                                         type="button"
