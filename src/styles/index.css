@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+h4{
+    color: black;
+}
+
+p{
+    color: black;
+}
+
+.yellow-link {
+    color: #ffc107 !important;
+
+}
+
+.yellow-link:hover {
+    color: rgba(255, 255, 245, 0.82) !important;
+}
+
+.footer p {
+    color: white
+}
+
+.span-favt{
+    color: #ffc107;
+}
+
+.contact{
+    margin: 50px 50px;
+}
